@@ -1,0 +1,33 @@
+
+
+body{
+  user-select: none;
+  background-color: black;
+}
+
+.lightActivity{
+  color: aliceblue;
+  box-shadow: -10px 15px 22px 15px black inset;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: var(--light-color);
+}
+
+:root {
+  --light-color: rgb(31, 31, 30);
+}
+
+.container {
+  height: 31.25em;
+  width: 31.25em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.center{
+  transform: translateX(-50%);
+  left: 50%;
+}
